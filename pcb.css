@@ -1,10 +1,67 @@
-/* Import Nunito Font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair Display&display=swap');
 
-/* Apply Nunito font to all elements */
-
+[dir] .nx-theme-styles .nx-theme-label-1 {
+    font-family: "Playfair Display";
+    text-shadow: 2px 2px #000000;
+    font-size: inherit;
+}
+[dir] .nx-theme-styles .nx-theme-richtext {
+    font-family: "Playfair Display";
+    font-size: inherit;
+}
 [dir] .nx-theme-styles .nx-theme-form {
-    background-color: #FFF8DC;
-    font-family: 'Nunito', sans-serif;
+    background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgb(220, 224, 231, 1.0));
+}
+[dir] .nx-theme-styles .nx-theme-page {
+    background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgb(220, 224, 231, 1.0));
+}
+[dir] .nx-theme-styles .nx-theme-input-1  {
+    background-color: #FFFFFF;
+    color: #000000;
+    }
+
+[dir] .nx-theme-styles .nx-error-message {
+    background-color: #FF6D00;
+    border: #FF6D00;
 }
 
+[dir] .nx-theme-styles  .nx-group-control-container .nx-group-control-header-background {
+    background-color: #DCE0E7;
+    border: #DCE0E7;
+}
+
+[dir] .nx-theme-styles  .nx-group-control-container p {
+    color: #000000;
+    font-weight: bold;
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1 {
+  content: "";
+  background-color: #003870;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 120px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 25px;
+  }
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1:active {
+  background-color: #003870;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1:not(:first-child) {
+  margin-top: 10px;
+}
+[dir] .nx-title {
+    color: #efd6d6;
+}
+/* Logo Image */
+[dir] .nx-theme-styles #_8e80684b755017b4c010d18aea6f7c4a-group-control {
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #ffffff);
+}

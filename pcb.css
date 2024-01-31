@@ -8,13 +8,3 @@
     font-family: 'Nunito', sans-serif;
 }
 
-/* Optionally, you can also specify different font weights or styles for specific elements, like headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-    /* This is for bold text, you can adjust as needed */
-}

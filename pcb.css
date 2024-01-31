@@ -1,0 +1,20 @@
+/* Import Nunito Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Apply Nunito font to all elements */
+
+[dir] .nx-theme-styles .nx-theme-form {
+    background-color: #FFF8DC;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Optionally, you can also specify different font weights or styles for specific elements, like headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    /* This is for bold text, you can adjust as needed */
+}

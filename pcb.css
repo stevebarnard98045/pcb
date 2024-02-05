@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap');
 
 [dir] .nx-theme-styles .nx-theme-label-1 {
@@ -11,7 +10,7 @@
     font-size: inherit;
 }
 .nx-form.container-fluid.nx-theme-form { 
-  height: 700px; 
+  height: 1000px; 
   overflow: auto; 
 } 
 ntx-multi-page .nx-multi-page { 
@@ -22,7 +21,8 @@ ntx-multi-page .nx-multi-page {
   position: sticky; 
   top: -30px; 
   z-index: 999; 
-  background-color: #ebe419;
+  background-color: #F2FBFE;
 }
-
-
+.nx-theme-styles .nx-theme-form {
+    background: linear-gradient(to bottom, #F2FBFE 70px, #ffffff 150px);
+}
